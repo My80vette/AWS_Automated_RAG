@@ -1,0 +1,5 @@
+bentoml
+sentence-transformers
+boto3
+python-dotenv
+pinecone
