@@ -33,6 +33,7 @@ if prompt := st.chat_input("Type your message here..."):
         # Call BentoML service
         try:
             api_response = requests.post(
+                # Replace with EKS endpoint URL when bento gets deployed
                 "http://localhost:3000/answer_question",
                 json={"query": prompt}
             )
